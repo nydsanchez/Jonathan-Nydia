@@ -8,4 +8,6 @@ header{
 
 }
 
-welcome-section
+body{
+    background-color: gainsboro;
+}
