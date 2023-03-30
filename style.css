@@ -1,11 +1,11 @@
-head{
-
+ul{
+list-style: none;
+display: flex;
+justify-content: center;
 }
-nav{
-
-}
-header{
-
+li{
+    float:left;
+    padding: 3px;
 }
 
 body{
