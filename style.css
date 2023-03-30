@@ -8,4 +8,20 @@ header{
 
 }
 
-welcome-section
+.product {
+    display: block;
+    border: 2px black solid;
+    height: 200px;
+    width: 250px;
+    margin-bottom: 10px;;
+    align-items: center;
+
+}
+
+.btn {
+    background-color: aquamarine;
+    border: 2px;
+
+    align-items: center;
+}
+
