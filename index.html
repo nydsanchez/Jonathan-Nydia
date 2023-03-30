@@ -10,85 +10,78 @@
 <body>
     <header id="header">
         <img id="header-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="">
-    <nav id="nav-bar">
-        <ul>
-            <li>Academy</li>
-            <li>Shows</li>
-            <li>Products</li>
+        <nav class="nav-bar" id="nav-bar">
+         <ul id="menu">
+            <li class="nav-link"><a href="#service">Academy</a></li>
+            <li class="nav-link"><a href="#video">Shows</a></li>
+            <li class="nav-link"><a href="#products">Products</a></li>
         </ul>
-    </nav>
-    <h1>Trombone Slide Repair</h1>
-    <h3>our mission is your happiness</h3>
-    <input type="text" placeholder="Enter your email">
-    <button>Subscribe</button>
-   
+        </nav>
+        <div id="contform">
+            <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+                <h1>Trombone Slide Repair</h1>
+                <h3>our mission is your happiness</h3>
+                <input id="email" type="email" name="email" placeholder="Enter your email">
+            </form>
+        </div>
     </header>   
     <main>
-        <ul>
+        <ul id="services">
             <li>Virtual Classes</li>
             <li>Repair Shop</li>
             <li>Free delivery</li>
         </ul>  
-        </main>
-        <video src="video1.mp4" width="500" heigth="520" controls>
-        </video>
-
+    </main>  
+        <div id="video">
+        <video src="video1.mp4" width="500" heigth="520" controls></video>
+        </div>
         
-            <div>
-                <div>
-                    <div class="product" id="tenor">
-                        <div class="level">Tenor Trombone</div>
-                        <h2>$600</h2>
-                        <ol>
-                          <li>Lorem ipsum.</li>
-                          <li>Lorem ipsum.</li>
-                          <li>Lorem ipsum dolor.</li>
-                          <li>Lorem ipsum.</li>
-                        </ol>
-                        <button class="btn">Select</button>
-                      </div>
-                </div>
+        <section id="products">
+            <div class="product" id="tenor">
+                <div id="p1" class="level">Tenor Trombone</div>
+                <h2>$600</h2>
+                <ol>
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum dolor.</li>
+                    <li>Lorem ipsum.</li>
+                </ol>
+                <button class="btn">Select</button>
+            </div>
                 
-                <div><div class="product" id="tenor">
-                    <div class="level">Tenor Trombone</div>
-                    <h2>$900</h2>
-                    <ol>
-                      <li>Lorem ipsum.</li>
-                      <li>Lorem ipsum.</li>
-                      <li>Lorem ipsum dolor.</li>
-                      <li>Lorem ipsum.</li>
-                    </ol>
-                    <button class="btn">Select</button><br>
-                  <br>
-                  <br>
+            <div id="p2" class="product" id="tenor">
+                <div class="level">Tenor Trombone</div>
+                <h2>$900</h2>
+                <ol>
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum dolor.</li>
+                    <li>Lorem ipsum.</li>
+                </ol>
+                <button class="btn">Select</button><br>
+            </div>
 
-                    <div class="product" id="tenor">
-                        <div class="level"></div>
-                            <h2>$1200</h2>
-                            <ol>
-                                <li>Lorem ipsum.</li>
-                                <li>Lorem ipsum.</li>
-                                <li>Lorem ipsum dolor.</li>
-                                <li>Lorem ipsum.</li>
-                            </ol>
-                            <button class="btn">Select</button>
-                        </div>
-                
-                
-                      
-                    </div>
-                    
-        <div>
-            <footer>
-                <nav>
-                <ul>
-                    <li>Terms</li>
-                    <li>Privacy</li>
-                    <li>Contact</li>
+            <div class="product" id="tenor">
+                <div id="p3" class="level">Tenor Trombone</div>
+                <h2>$1200</h2>
+                <ol>
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum dolor.</li>
+                    <li>Lorem ipsum.</li>
+                </ol>
+                <button class="btn">Select</button>
+            </div>
+        </section>        
+        <footer>
+            <nav class="nav-bar" >
+                <ul id="menu2">
+                    <li class="nav-link">Terms</li>
+                    <li class="nav-link">Privacy</li>
+                    <li class="nav-link">Contact</li>
                 </ul>  
             </nav>
             <small>Copyright 2023, Jonathan and Nydia</small>
-            </footer>
-        </div>
+        </footer>
 </body>
 </html>
